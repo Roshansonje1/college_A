@@ -1,0 +1,16 @@
+div{
+  line-height: 20px;
+  color: black;
+  padding: 30px;
+  
+}
+.tab .con tr td{
+  padding: 30px;
+  border-bottom: 2px solid red;
+  border: 2px solid black;
+}
+.tab h1{
+  text-align: center;
+  margin-bottom: 40px;
+
+}

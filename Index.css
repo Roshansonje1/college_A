@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.nav{
+  background: #2b7199;
+  height: 85px;
+  width: 100%;
+}
+#check{
+  display:none;
+}
+.main{
+  height: 86.5vh;
+  background-image:url('Co.jpeg');
+}
+h1{
+  color: white;
+  text-align: center;
+  padding: 90px 20px 0 20px;
+  left: 75px;
+  font-size: 40px;
+  
+}
+.nav .ui .li{
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;
+  line-height: 53px;
+  padding: 15px ;
+}
+.li a{
+  text-decoration: none;
+  color: white;
+  
+}
+.active{
+  padding-left: x;
+}
+#sidebar{
+  position:fixed;
+  background: black;
+  width: 0px;
+  height: 100%;
+  z-index: ;
+  overflow: hidden;
+}
+#sidebar ul li a:hover{
+  color: aqua;
+  border-bottom: 2px solid aqua;
+
+
+}
+#check:checked ~ #sidebar{
+  width: 140px;
+}
+#check:checked ~ #qo{
+  font-size: 30px;
+}
+#sidebar a{
+  display:block;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  line-height: 70px;
+  transform: scale(1,1) ;
+  transition: transform 1s ease;
+}
+.sidebar .ty{
+  color: black;
+}
+#btn{
+  position:absolute;
+  color: aqua;
+  font-size: 30px;
+  text-align: center;
+  left: 370px;
+  top: 47px;
+}
